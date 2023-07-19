@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>On lead creation from lead object</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Opportunity_Amount_1_Crore</letterhead>
+    <name>Personal Meet Template</name>
+    <style>freeForm</style>
+    <subject>Thanks {!Lead.Name} for contacting MZ group we will update you soon</subject>
+    <textOnly>Dear {!Lead.Name},
+
+Thank you for your valuable time. Our sales reps are working on it as per your request. We will contact you soon.
+
+
+
+Thanks &amp; Regards,
+Sales Team.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

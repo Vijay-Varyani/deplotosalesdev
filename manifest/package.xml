@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>OpportunityApprovalController</members>
+        <members>CreateEmailToLead</members>
+        <members>OpportunityController</members>
+        <members>LeadApprovalController</members>
+        <members>SendEmailToQueueMemberandTaskCreatedTest</members>
+        <members>SendEmailTriggerTest</members>
+        <members>CreateLead</members>
+        <members>CreateEmailToLeadTest</members>
+        <members>LeadRecordTypeTriggerTest</members>
+        <members>LeadApprovalControllerTest</members>
+        <members>AfterEventCreationUpdateLeadTest</members>
+        <members>OpportunityApprovalControllerTest</members>
+        <members>SendEmailToQueueMemberandTaskCreated</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+      <members>LeadRecordTypeTrigger</members>
+      <members>PreventLeadStatusManualUpdate</members>
+      <members>RoundRobinOnLead</members>
+      <members>UpdateLeadStatus</members>
+      <members>CopyBillingToShippingTrigger</members>
+      <name>ApexTrigger</name>
+  </types>
+  <types>
+    <members>Account</members>
+    <members>Contact</members>
+    <members>Opportunity</members>
+    <members>Task</members>
+    <members>Event</members>
+    <members>Quote</members>
+    <members>Product</members>
+    <members>AccountTeamMember</members>
+    <name>CustomObject</name>
+</types>
+<types>
+  <members>Lead.Email</members>
+  <members>Lead.Other</members>
+  <members>Lead.Web</members>
+  <members>Opportunity.BPO</members>
+  <members>Opportunity.Education</members>
+  <members>Opportunity.Technology</members>
+  <members>Opportunity.Transportation</members>
+  <name>RecordType</name>
+</types>
+<types>
+  <!-- Standard Object Layout -->
+  <members>Lead-Lead Layout</members>
+  <members>Account-Account Layout</members>
+  <members>Contact-Contact Layout</members>
+  <members>Opportunity Layout</members>
+  <members>Task-Task Layout</members>
+  <members>Event-Event Layout</members>
+  <members>Quote-Quote Layout</members>
+  <name>Layout</name>
+</types>
+<types>
+  <!-- Custom Object Validation Rule -->
+  <members>lead_backward</members>
+  <members>Lead_Unqualified_reason</members>
+  <members>Mandatory_field_before_conversion</members>
+  <members>SubmitForApproval</members>
+  <members>Change Date</members>
+  <members>Stage_contacted_on_event</members>
+  <members>Prior_value_before_new_quote</members>
+  <members>Quote_Creation_On_Stage_Proposal_Price</members>
+  <name>ValidationRule</name>
+</types>
+
+  <!-- Flow Definition -->
+  <types>
+  <members>Assignment_of_lead_to_users</members>
+  <members>Flow_And_PriceBook_Relation</members>
+  <members>Lead_Qualified_and_Unqualified</members>
+  <members>Lead_Score_And_Rating_Flow</members>
+  <members>Lead_task_creation_on_due_date</members>
+  <members>LeadConversionMapping</members>
+  <members>New_Lead_History_When_Lead_Converted</members>
+  <members>Personal_Meet_Email_Flow</members>
+  <members>Rating_as_Per_Industry</members>
+  <members>Reminder_task</members>
+  <members>Send_Email_When_New_Lead_is_Created</members>
+  <members>Send_Opportunity_owner_Email</members>
+  <members>Amount_1_crore_and_opportunity_team_creation</members>
+  <members>Assigning_price_book_from_opportunity</members>
+  <members>Create_a_opportunity_contact_role_record</members>
+  <members>Create_Price_Book</members>
+  <members>Create_Quote_Related_To_Opportunity</members>
+  <members>Decision_Maker_Opportunity</members>
+  <members>Opportunity_Amount_Greater_1_cr</members>
+  <members>Opportunity_Assigned_Flow</members>
+  <members>Opportunity_Contact_Role_Creation</members>
+  <members>Opportunity_Open_And_Probability_50</members>
+  <members>Opportunity_Team_Creation_Flow</members>
+  <members>Opportunity_Won_and_Lost</members>
+  <members>Testing_PriceBook_Creation</members>
+  <members>Updating_Opportunity_Contact_Role</members>
+  <members>AutoRemainders</members>
+  <name>Flow</name>
+</types>
+<types>
+  <!-- Lightning Record Page -->
+  <members>Lead</members>
+  <name>flexipage</name>
+</types>
+<types>
+  <!-- Classic Email Template -->
+  <members>unfiled$public</members>
+  <members>unfiled$public/Web_Lead_Response_Email_template</members>
+  <members>unfiled$public/Opportunity_Submitted_For_Approval</members>
+  <members>unfiled$public/Web_Lead_Response_Email_template_with_Image</members>
+  <members>unfiled$public/Personal_Meet_Template</members>
+  <members>unfiled$public/Email_For_queue_member</members>
+  <members>unfiled$public/Opportunity_Amount_For_Approval_Template</members>
+  <members>unfiled$public/Opportunity_Owner_Approval_Email</members>
+  <members>unfiled$public/Lead_Qualified_Email_Templatewith_company_logo</members>
+  <members>unfiled$public/LeadsWebtoLeademailresponseSAMPLE</members>
+  <members>unfiled$public/LeadsNewassignmentnotificationSAMPLE</members>
+  <members>unfiled$public/Opportunity_Amount_High_Priority</members>
+  <members>unfiled$public/Status_Changed</members>
+  <members>unfiled$public/Task_is_created</members>
+  <name>EmailTemplate</name>
+</types>
+<types>
+  <!-- Email Alert -->
+  <types>
+    <members>ObjectName.EmailAlertName</members>
+    <name>WorkflowAlert</name>
+</types>
+  <members>Opportunity.Approval_has_been_granted</members>
+  <members>Opportunity.Decision_Maker_Email_Alert</members>
+  <members>Lead.Lead_Approval_Email_Template</members>
+  <members>Lead.Lead_Approval_Email_Template</members>
+  <members>Lead.Lead_Age_Greater_Or_Equal_15_Days</members>
+  <members>Lead.Lead_Qualified</members>
+  <members>Lead.Lead_Unqualified</members>
+  <members>Opportunity.Opportunity_Amount_High_Priority_1CR</members>
+  <members>Opportunity.Opportunity_Conversion_Lost</members>
+  <members>Opportunity.Opportunity_Probabliity_And_Open_HTML</members>
+  <members>Opportunity.Opportunity_Owner_Rejection_Email</members>
+  <members>Opportunity.Opportunity_Conversion</members>
+  <members>Opportunity.Opportunity_Conversion</members>
+  <members>Lead.Lead_Approval_Email_Template</members>
+  <members>Lead.Lead_Approved_Email_User</members>
+  <members>Lead.Lead_Rejected_Email_User</members>
+  <members>Task.Task_Reminder_3_Days_Remaining</members>
+  <name>WorkflowAlert</name>
+</types>
+<types>
+  <members>Public_Reports</members>
+  <members>Public_Reports/All_Opportunities_With_All_Stage_Report</members>
+  <members>Public_Reports/New_Leads_Report_MY7</members>
+  <members>Public_Reports/Lead_Greater_Or_Equal_15_Days_Tbb</members>
+  <members>Public_Reports/Opportunity_stage_and_close_date_kxp</members>
+  <members>Public_Reports/Opportunity_Closed_Lost_Report_szP</members>
+  <members>Public_Reports/Copy_of_Opportunity_Closed_Won_Report_4e3</members>
+  <members>Public_Reports/Copy_of_Opportunity_Closed_Lost_Report_ERC</members>
+  <members>Public_Reports/Opportunity_stage_and_close_date_kxp</members>
+  <members>Public_Reports/Opportunity_Closed_Lost_Report_szP</members>
+  <members>Public_Reports/New_Opportunities_Report_Xf7</members>
+  <members>Public_Reports/Opportunity_Closed_Won_Report_W3Q</members>
+  <members>Public_Reports/Lead_Converted_Last_Month_Kv2</members>
+  <members>Public_Reports/Opportunity_Closed_Lost_Report_szP</members>
+  <name>Report</name>
+</types>
+    <version>57.0</version>
+</Package>

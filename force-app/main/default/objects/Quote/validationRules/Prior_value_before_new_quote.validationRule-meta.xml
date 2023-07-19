@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prior_value_before_new_quote</fullName>
+    <active>false</active>
+    <description>prior value should be need analysis before creating quote</description>
+    <errorConditionFormula>NOT(ISPICKVAL( Opportunity.StageName , &quot;Needs Analysis&quot;) )</errorConditionFormula>
+    <errorMessage>Cannot create quote since products aren&apos;t added in price list</errorMessage>
+</ValidationRule>

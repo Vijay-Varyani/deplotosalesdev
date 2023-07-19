@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>MZ_Letterhead</letterhead>
+    <name>Email For queue member</name>
+    <style>formalLetter</style>
+    <subject>Case created successfully</subject>
+    <textOnly>Hi,
+
+
+Case is created successfully : {!Case.CaseNumber}
+
+
+
+Thank you.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
