@@ -123,12 +123,9 @@
   <members>unfiled$public/Task_is_created</members>
   <name>EmailTemplate</name>
 </types>
-<types>
   <!-- Email Alert -->
-  <types>
-    <members>ObjectName.EmailAlertName</members>
-    <name>WorkflowAlert</name>
-</types>
+
+<types>
   <members>Opportunity.Approval_has_been_granted</members>
   <members>Opportunity.Decision_Maker_Email_Alert</members>
   <members>Lead.Lead_Approval_Email_Template</members>
