@@ -45,9 +45,9 @@ node {
             if(rc != 0) { error 'Validate Failed' }*/
 
             if (isUnix()) {
-				rmsg = sh returnStatus: true, script: "sfdx force:source:deploy  --manifest ../manifest/package.xml -u ${HUB_ORG}"
+				rmsg = sh returnStatus: true, script: "sfdx force:source:deploy  --manifest  manifest/package.xml -u ${HUB_ORG}"
 			}else{
-			   rmsg = bat returnStatus: true, script: "sfdx force:source:deploy  --manifest ../manifest/package.xml -u ${HUB_ORG}"
+			   rmsg = bat returnStatus: true, script: "sfdx force:source:deploy  --manifest  manifest/package.xml -u ${HUB_ORG}"
 			}
 
 			println(rmsg)
