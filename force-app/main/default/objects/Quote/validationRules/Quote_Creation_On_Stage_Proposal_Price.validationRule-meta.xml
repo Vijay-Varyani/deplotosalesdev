@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Quote_Creation_On_Stage_Proposal_Price</fullName>
-    <active>false</active>
-    <errorConditionFormula>NOT((ISPICKVAL( Opportunity.StageName ,&quot;Proposal/Price Quote&quot;)))</errorConditionFormula>
-    <errorMessage>Stage should be &quot;Price/Proposal Quote&quot;  or &quot;Negotiation/Review&quot; for quote creation</errorMessage>
-</ValidationRule>
