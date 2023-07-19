@@ -101,12 +101,12 @@
   <name>Flow</name>
 </types>
 <types>
-  <!-- Lightning Record Page -->
   <members>Lead</members>
   <name>flexipage</name>
 </types>
-<types>
   <!-- Classic Email Template -->
+
+<types>
   <members>unfiled$public</members>
   <members>unfiled$public/Web_Lead_Response_Email_template</members>
   <members>unfiled$public/Opportunity_Submitted_For_Approval</members>
