@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Education Queue</name>
+    <queueMembers>
+        <users>
+            <user>cwalukar@mindzcloud.com.partner</user>
+            <user>rlomte@mindzcloud.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Lead_Routing_Configration</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>
