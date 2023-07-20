@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Opportunity_Amount_1_Crore</letterhead>
+    <name>Lead Qualified Email Templatewith  company logo</name>
+    <style>freeForm</style>
+    <subject>The opportunity has been submitted for your approval on discount request of {!Opportunity.Discount_Percentage__c}.</subject>
+    <textOnly>Dear Approver,
+The opportunity {!Opportunity.Name}, with amount {!Opportunity.Amount} is looking for the discount of {!Opportunity.Discount_Percentage__c}% and has been submitted for your approval.
+Please go through the approval request ASAP.
+
+Thanks,
+MZ group</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

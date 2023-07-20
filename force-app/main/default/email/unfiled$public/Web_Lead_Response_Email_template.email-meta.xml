@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>When lead gets generated we will send this email template to the lead email id.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Web Lead Response Email template</name>
+    <style>none</style>
+    <subject>Thanks {!Lead.FirstName} {!Lead.LastName} for contacting MZ group we will update you soon.</subject>
+    <textOnly>Dear  {!Lead.FirstName} {!Lead.LastName},
+
+We have received your inquiry details and our Sales reps are working on it.  We will contact you soon.
+
+Thanks  
+Sales Team, 
+MindZcloud Group</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
