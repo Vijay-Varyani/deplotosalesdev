@@ -157,10 +157,7 @@
   <name>Report</name>
 </types>
 
- <types>
-    <members>Task.BPO_Queue_Task</members>
-    <name>Queue</name>
-</types>
+ 
 
     <version>58.0</version>
 </Package>
