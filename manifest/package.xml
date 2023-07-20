@@ -157,14 +157,6 @@
   <name>Report</name>
 </types>
 
- <types>
-    <members>*</members>
-    <name>Queue</name>
-</types>
-<types>
-    <members>Task.BPO_Queue_Task</members>
-        <members>Task.Education_Queue_Task</members>
-    <name>CustomField</name>
-</types>
+ 
     <version>58.0</version>
 </Package>
