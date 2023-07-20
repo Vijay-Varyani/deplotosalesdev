@@ -29,9 +29,9 @@
     <members>Opportunity</members>
     <members>Task</members>
     <members>Event</members>
-    <members>Quote</members>
+    <members>Quote__c</members>
     <members>Product</members>
-    <members>AccountTeamMember</members>
+    <members>AccountTeamMember__c</members>
     <name>CustomObject</name>
 </types>
 <types>
