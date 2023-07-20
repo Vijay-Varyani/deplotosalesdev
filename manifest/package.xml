@@ -4,13 +4,11 @@
         <members>OpportunityApprovalController</members>
         <members>CreateEmailToLead</members>
         <members>OpportunityController</members>
-        <members>LeadApprovalController</members>
         <members>SendEmailToQueueMemberandTaskCreatedTest</members>
         <members>SendEmailTriggerTest</members>
         <members>CreateLead</members>
         <members>CreateEmailToLeadTest</members>
         <members>LeadRecordTypeTriggerTest</members>
-        <members>LeadApprovalControllerTest</members>
         <members>AfterEventCreationUpdateLeadTest</members>
         <members>OpportunityApprovalControllerTest</members>
         <members>SendEmailToQueueMemberandTaskCreated</members>

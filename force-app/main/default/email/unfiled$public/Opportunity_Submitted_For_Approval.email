@@ -1,6 +1,0 @@
-Dear Manager, 
-The opportunity {!Opportunity.Name}, with amount {!Opportunity.Amount} is looking for {!Opportunity.Discount_Percentage__c} and has been submitted for approval. 
-Please go through the approval request ASAP. 
-
-Thanks, 
-MZ group
