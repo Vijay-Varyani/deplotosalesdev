@@ -158,7 +158,7 @@
 </types>-->
 
  <types>
-    <members>BPO_Queue </members>
+    <members>BPO_Queue_Task</members>
     <name>Queue</name>
 </types>
 
