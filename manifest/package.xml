@@ -18,7 +18,7 @@
     <types>
       <members>LeadRecordTypeTrigger</members>
       <members>PreventLeadStatusManualUpdate</members>
-      <members>RoundRobinOnLead</members>
+      <members>Round_Robin_On_Lead</members>
       <members>UpdateLeadStatus</members>
       <members>CopyBillingToShippingTrigger</members>
       <name>ApexTrigger</name>
