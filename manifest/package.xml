@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-   <!-- <types>
+   <types>
         <members>OpportunityApprovalController</members>
         <members>CreateEmailToLead</members>
         <members>OpportunityController</members>
@@ -155,7 +155,7 @@
   <members>Public_Reports/Lead_Converted_Last_Month_Kv2</members>
   <members>Public_Reports/Opportunity_Closed_Lost_Report_szP</members>
   <name>Report</name>
-</types>-->
+</types>
 <types>
     <members>BPO_Queue</members>
         <members>Education_Queue</members>
