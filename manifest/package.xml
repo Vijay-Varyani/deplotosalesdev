@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <types>
+   <!-- <types>
         <members>OpportunityApprovalController</members>
         <members>CreateEmailToLead</members>
         <members>OpportunityController</members>
@@ -155,14 +155,16 @@
   <members>Public_Reports/Lead_Converted_Last_Month_Kv2</members>
   <members>Public_Reports/Opportunity_Closed_Lost_Report_szP</members>
   <name>Report</name>
-</types>
+</types>-->
 <types>
-        <members>Task.BPO_Queue_Task</members>
-                <members>Task.Education_Queue_Task</members>
-        <members>Task.Technology_Queue_Task</members>
-                <members>Task.Transportation_Queue_Task</members>
-        <name>ListView</name>
-    </types>
+    <members>BPO_Queue</members>
+        <members>Education_Queue</members>
+    <members>Technology_Queue</members>
+    <members>Transportation_Queue</members>
+
+    <name>Queue</name>
+</types>
+
 
  
     <version>58.0</version>
