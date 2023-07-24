@@ -159,9 +159,6 @@
 <types>
         <members>Task.BPO_Queue_Task</members>
                 <members>Task.Education_Queue_Task</members>
-        <members>Task.High_Priority_Task</members>
-        <members>Task.Low_Priority_Task</members>
-        <members>Task.Medium_Priority_Task</members>
         <members>Task.Technology_Queue_Task</members>
                 <members>Task.Transportation_Queue_Task</members>
         <name>ListView</name>
