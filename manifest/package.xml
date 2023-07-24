@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-   <types>
-        <members>OpportunityApprovalController</members>
+      
+                       <types>
+      <members>OpportunityApprovalController</members>
         <members>CreateEmailToLead</members>
         <members>OpportunityController</members>
         <members>SendEmailToQueueMemberandTaskCreatedTest</members>
@@ -11,11 +12,14 @@
         <members>LeadRecordTypeTrigger</members>
         <members>LeadRecordTypeTriggerTest</members>
         <members>AfterEventCreationUpdateLeadTest</members>
-        <members>OpportunityApprovalControllerTest</members>
+         <members>OpportunityApprovalControllerTest</members>
         <members>SendEmailToQueueMemberandTaskCreated</members>
+                <members>LeadApprovalController</members>
+                                <members>LeadApprovalControllerTest</members>
+                                <members>LeadRecordTypeTriggerTest</members>
         <name>ApexClass</name>
     </types>
-    <types>
+   <types>
       <members>LeadRecordTypeTrigger</members>
       <members>PreventLeadStatusManualUpdate</members>
       <members>Round_Robin_On_Lead</members>
