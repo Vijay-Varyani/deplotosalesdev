@@ -1,9 +1,0 @@
-Hello {!Opportunity.OwnerFullName},
-
-The opportunity amount for the record {!Opportunity.Name} is
-{!Opportunity.Amount} ,kindly finish this by keeping it atmost priority.
-
-
-
-Thankyou {!Opportunity.OwnerFirstName},
-MZ Team.
