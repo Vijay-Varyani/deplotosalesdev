@@ -1,0 +1,7 @@
+Dear  {!Lead.FirstName} {!Lead.LastName}, </br>
+<p> We have received your inquiry details and our Sales reps are working on it. </br>
+We will contact you soon. </p> 
+<p>
+Thanks, </br>
+Sales Team, </br>
+MindZcloud Group </p>
