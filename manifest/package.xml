@@ -8,7 +8,7 @@
         <members>SendEmailTriggerTest</members>
         <members>CreateLead</members>
         <members>CreateEmailToLeadTest</members>
-                <members>LeadRecordTypeTrigger</members>
+        <members>LeadRecordTypeTrigger</members>
         <members>LeadRecordTypeTriggerTest</members>
         <members>AfterEventCreationUpdateLeadTest</members>
         <members>OpportunityApprovalControllerTest</members>
