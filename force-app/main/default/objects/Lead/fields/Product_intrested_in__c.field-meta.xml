@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_intrested_in__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select product(s)</inlineHelpText>
+    <label>Product intrested in ?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Industry</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ipads</fullName>
+                <default>false</default>
+                <label>Ipads</label>
+            </value>
+            <value>
+                <fullName>Laptops</fullName>
+                <default>false</default>
+                <label>Laptops</label>
+            </value>
+            <value>
+                <fullName>Printers</fullName>
+                <default>false</default>
+                <label>Printers</label>
+            </value>
+            <value>
+                <fullName>Smartphones</fullName>
+                <default>false</default>
+                <label>Smartphones</label>
+            </value>
+            <value>
+                <fullName>Bachelor Of Science</fullName>
+                <default>false</default>
+                <label>Bachelor Of Science</label>
+            </value>
+            <value>
+                <fullName>Bachelor Of Engineering</fullName>
+                <default>false</default>
+                <label>Bachelor Of Engineering</label>
+            </value>
+            <value>
+                <fullName>Master Of Business Administration</fullName>
+                <default>false</default>
+                <label>Master Of Business Administration</label>
+            </value>
+            <value>
+                <fullName>Master Of Business Analytics</fullName>
+                <default>false</default>
+                <label>Master Of Business Analytics</label>
+            </value>
+            <value>
+                <fullName>Master Of Supply Chain Management</fullName>
+                <default>false</default>
+                <label>Master Of Supply Chain Management</label>
+            </value>
+            <value>
+                <fullName>Phone Systems</fullName>
+                <default>false</default>
+                <label>Phone Systems</label>
+            </value>
+            <value>
+                <fullName>Auto Dialers</fullName>
+                <default>false</default>
+                <label>Auto Dialers</label>
+            </value>
+            <value>
+                <fullName>Instant Messengers</fullName>
+                <default>false</default>
+                <label>Instant Messengers</label>
+            </value>
+            <value>
+                <fullName>Performance Trackers</fullName>
+                <default>false</default>
+                <label>Performance Trackers</label>
+            </value>
+            <value>
+                <fullName>Apple I Phone 14 pro</fullName>
+                <default>false</default>
+                <label>Apple I Phone 14 pro</label>
+            </value>
+            <value>
+                <fullName>Apple Type C Charger</fullName>
+                <default>false</default>
+                <label>Apple Type C Charger</label>
+            </value>
+            <value>
+                <fullName>Jabra Headphone CX01</fullName>
+                <default>false</default>
+                <label>Jabra Headphone CX01</label>
+            </value>
+            <value>
+                <fullName>Mobile Cover</fullName>
+                <default>false</default>
+                <label>Mobile Cover</label>
+            </value>
+            <value>
+                <fullName>Screen Guard Apple</fullName>
+                <default>false</default>
+                <label>Screen Guard Apple</label>
+            </value>
+            <value>
+                <fullName>Android and auto car play</fullName>
+                <default>false</default>
+                <label>Android and auto car play</label>
+            </value>
+            <value>
+                <fullName>EV charger 11.5 kW / 48 amp</fullName>
+                <default>false</default>
+                <label>EV charger 11.5 kW / 48 amp</label>
+            </value>
+            <value>
+                <fullName>Heavy duty roof rail</fullName>
+                <default>false</default>
+                <label>Heavy duty roof rail</label>
+            </value>
+            <value>
+                <fullName>Leather seat covers</fullName>
+                <default>false</default>
+                <label>Leather seat covers</label>
+            </value>
+            <value>
+                <fullName>Lithium ion battery EV</fullName>
+                <default>false</default>
+                <label>Lithium ion battery EV</label>
+            </value>
+            <value>
+                <fullName>Pirelli P zero tyres</fullName>
+                <default>false</default>
+                <label>Pirelli P zero tyres</label>
+            </value>
+            <value>
+                <fullName>Ipad</fullName>
+                <default>false</default>
+                <label>Ipad</label>
+            </value>
+            <value>
+                <fullName>Mac</fullName>
+                <default>false</default>
+                <label>Mac</label>
+            </value>
+            <value>
+                <fullName>iPhone</fullName>
+                <default>false</default>
+                <label>iPhone</label>
+            </value>
+            <value>
+                <fullName>Apple Watch</fullName>
+                <default>false</default>
+                <label>Apple Watch</label>
+            </value>
+            <value>
+                <fullName>Multi Utility Vehicles</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Multi Utility Vehicles</label>
+            </value>
+            <value>
+                <fullName>Sedans</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sedans</label>
+            </value>
+            <value>
+                <fullName>Sports Utility Vehicles</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sports Utility Vehicles</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Technology</controllingFieldValue>
+            <valueName>Apple I Phone 14 pro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technology</controllingFieldValue>
+            <valueName>Apple Type C Charger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technology</controllingFieldValue>
+            <valueName>Jabra Headphone CX01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technology</controllingFieldValue>
+            <valueName>Mobile Cover</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technology</controllingFieldValue>
+            <valueName>Screen Guard Apple</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technology</controllingFieldValue>
+            <valueName>Ipad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technology</controllingFieldValue>
+            <valueName>Mac</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technology</controllingFieldValue>
+            <valueName>Apple Watch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BPO</controllingFieldValue>
+            <valueName>Phone Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BPO</controllingFieldValue>
+            <valueName>Auto Dialers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BPO</controllingFieldValue>
+            <valueName>Instant Messengers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BPO</controllingFieldValue>
+            <valueName>Performance Trackers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportation</controllingFieldValue>
+            <valueName>Android and auto car play</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportation</controllingFieldValue>
+            <valueName>EV charger 11.5 kW / 48 amp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportation</controllingFieldValue>
+            <valueName>Heavy duty roof rail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportation</controllingFieldValue>
+            <valueName>Leather seat covers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportation</controllingFieldValue>
+            <valueName>Lithium ion battery EV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportation</controllingFieldValue>
+            <valueName>Pirelli P zero tyres</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education</controllingFieldValue>
+            <valueName>Bachelor Of Science</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education</controllingFieldValue>
+            <valueName>Bachelor Of Engineering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education</controllingFieldValue>
+            <valueName>Master Of Business Administration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education</controllingFieldValue>
+            <valueName>Master Of Business Analytics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education</controllingFieldValue>
+            <valueName>Master Of Supply Chain Management</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

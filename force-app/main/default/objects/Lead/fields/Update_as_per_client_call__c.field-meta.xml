@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Update_as_per_client_call__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the details as per the demand by the client</inlineHelpText>
+    <label>Update as per client call</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>TextArea</type>
+</CustomField>

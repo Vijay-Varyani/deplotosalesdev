@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technology_Leads</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>Lead_Age__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.INDUSTRY</field>
+        <operation>equals</operation>
+        <value>Technology</value>
+    </filters>
+    <label>Technology Leads</label>
+</ListView>

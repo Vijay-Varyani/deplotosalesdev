@@ -32,6 +32,7 @@
     <members>Contact</members>
     <members>Opportunity</members>
     <members>Task</members>
+        <members>Lead</members>
     <members>Event</members>
     <members>Quote__c</members>
     <members>Product</members>
@@ -58,17 +59,7 @@
   <members>Quote-Quote__c Layout</members>
   <name>Layout</name>
 </types>
-<types>
-  <members>lead_backward</members>
-  <members>Lead_Unqualified_reason</members>
-  <members>Mandatory_field_before_conversion</members>
-  <members>SubmitForApproval</members>
-  <members>Change Date</members>
-  <members>Stage_contacted_on_event</members>
-  <members>Prior_value_before_new_quote</members>
-  <members>Quote_Creation_On_Stage_Proposal_Price</members>
-  <name>ValidationRule</name>
-</types>
+
 
   <types>
   <members>Assignment_of_lead_to_users</members>

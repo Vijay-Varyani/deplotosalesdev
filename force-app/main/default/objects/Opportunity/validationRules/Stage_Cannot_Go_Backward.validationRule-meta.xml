@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage_Cannot_Go_Backward</fullName>
+    <active>false</active>
+    <errorConditionFormula>CASE(  StageName  ,
+&quot;Prospecting&quot;,1,
+&quot;Needs Analysis&quot;,2,
+&quot;Proposal/Price Quote&quot;,3,
+&quot;Negotiation/Review&quot;,4,
+&quot;Closed Won&quot;,5,
+&quot;Closed Lost&quot;,6,0)
+
+&lt;
+
+CASE(PRIORVALUE(StageName) ,
+&quot;Prospecting&quot;,1,
+&quot;Needs Analysis&quot;,2,
+&quot;Proposal/Price Quote&quot;,3,
+&quot;Negotiation/Review&quot;,4,
+&quot;Closed Won&quot;,5,
+&quot;Closed Lost&quot;,6,0)</errorConditionFormula>
+    <errorMessage>Stage Cannot Go Backward</errorMessage>
+</ValidationRule>

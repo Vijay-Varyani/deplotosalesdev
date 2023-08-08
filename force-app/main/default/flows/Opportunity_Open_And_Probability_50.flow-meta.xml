@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Opportunity_Probability_50</name>
+        <label>Opportunity Probability 50</label>
+        <locationX>176</locationX>
+        <locationY>335</locationY>
+        <actionName>Opportunity.Opportunity_Open_And_Probability_50</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.Opportunity_Open_And_Probability_50</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>57.0</apiVersion>
+    <environments>Default</environments>
+    <interviewLabel>Opportunity Open And Probability 50 {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Opportunity Open And Probability 50</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Opportunity_Probability_50</targetReference>
+        </connector>
+        <filterFormula>(NOT(ISPICKVAL({!$Record.StageName}, &apos;Closed Lost&apos;) || ISPICKVAL({!$Record.StageName}, &apos;Closed Won&apos;)) ) &amp;&amp; ({!$Record.Probability} &lt;= 50) &amp;&amp; ({!$Record.Opportunity_Age__c} &gt;5)</filterFormula>
+        <object>Opportunity</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>

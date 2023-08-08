@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage_contacted_on_event</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+OR
+(NOT(PRIORVALUE( Subject ) = &quot;Call&quot; || 
+PRIORVALUE( Subject ) = &quot;Email&quot; || 
+PRIORVALUE( Subject ) = &quot;Meeting&quot; ||
+PRIORVALUE( Subject )=&quot;Send Letter/Quote&quot; || 
+PRIORVALUE( Subject ) = &quot;Other&quot;), 
+WhoId = &quot;00Q&quot; ))</errorConditionFormula>
+    <errorMessage>Cann</errorMessage>
+</ValidationRule>

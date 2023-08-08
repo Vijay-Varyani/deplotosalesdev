@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandatory_field_before_conversion</fullName>
+    <active>false</active>
+    <description>industry and product interested fields cannot be blank</description>
+    <errorConditionFormula>AND(
+IsConverted = TRUE,
+AND(
+   ISBLANK(TEXT(Industry)),
+   ISBLANK(TEXT(Product_intrested_in__c))
+  ) 
+)</errorConditionFormula>
+    <errorMessage>Cannot convert lead until mandatory fields are checked</errorMessage>
+</ValidationRule>

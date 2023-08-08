@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>lead_backward</fullName>
+    <active>true</active>
+    <errorConditionFormula>CASE( Status ,
+&quot;Open&quot;,1,
+&quot;Contacted&quot;,2,
+&quot;Unqualified&quot;,3,
+&quot;Qualified&quot;,4,0)
+
+&lt;
+
+CASE(PRIORVALUE(Status) ,
+&quot;Open&quot;,1,
+&quot;Contacted&quot;,2,
+&quot;Unqualified&quot;,3,
+&quot;Qualified&quot;,4,0)</errorConditionFormula>
+    <errorMessage>Cannot move backward</errorMessage>
+</ValidationRule>

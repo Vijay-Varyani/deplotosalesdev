@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>check_permission_set</fullName>
+    <active>false</active>
+    <description>If user has the permission set assigned then skip this validation rule.</description>
+    <errorConditionFormula>AND( NOT($Profile.Name = &apos;Chatter Free User&apos;) &amp;&amp; ISNULL(AnnualRevenue))</errorConditionFormula>
+    <errorMessage>You are not admin ok</errorMessage>
+</ValidationRule>
